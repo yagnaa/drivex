@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/byBrand"
+        android:orderInCategory="1"
+        android:title="Brand"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/byBudget"
+        android:orderInCategory="2"
+        android:title="Budget"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/byType"
+        android:orderInCategory="3"
+        android:title="Type"
+        app:showAsAction="always" />
+</menu>

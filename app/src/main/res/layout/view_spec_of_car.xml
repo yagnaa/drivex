@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginBottom="50dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:lines="1"
+            android:padding="16dp"
+            android:text="Specification and Features"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#999"></View>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Overview"
+                    android:textColor="#333"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_milage" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="Petrol"
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="Fuel Type"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_power" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="1799 CC"
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="Engine"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_transmission_spec" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="Manual"
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="Transmission"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- second row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_seating_spec" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="5 Seating "
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="Capacity"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_highway" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="12.5 kmpl"
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="on Highway"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/ic_action_city" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="9.5 kmpl"
+                            android:textColor="@color/col33"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:lines="1"
+                            android:text="on City"
+                            android:textColor="@color/col666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Safety"
+
+                    android:textColor="#333"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_on"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Anti Lock System"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_off"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Central Locking"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_on"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Anti Lock System"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_off"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Central Locking"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_on"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Anti Lock System"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_off"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Central Locking"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_on"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Anti Lock System"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_off"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Central Locking"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_on"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Anti Lock System"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/ic_action_icon_off"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Central Locking"
+                        android:textColor="#666"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/cole5"
+        android:gravity="center"
+        android:lines="1"
+        android:padding="10dp"
+        android:text="Close"
+        android:id="@+id/close_button"
+        android:textColor="@color/col33"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+</FrameLayout>

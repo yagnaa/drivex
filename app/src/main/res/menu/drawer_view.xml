@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_action_action_home"
+
+            android:title="Home" />
+        <item
+            android:id="@+id/action_alert"
+            android:icon="@drawable/ic_action_social_notifications"
+            android:title="My Alert" />
+        <item
+            android:id="@+id/action_shortlist"
+            android:icon="@drawable/ic_action_action_favorite"
+            android:title="My Shortlist" />
+        <item
+            android:id="@+id/action_on_road_price"
+            android:icon="@drawable/ic_action_onrd"
+            android:title="Get On Road Price" />
+        <item
+            android:id="@+id/action_nearest_dealer"
+            android:icon="@drawable/ic_action_maps_place"
+            android:title="Find Nearest Dealer" />
+        <item
+            android:id="@+id/action_compare_price"
+            android:icon="@drawable/ic_action_compare"
+            android:title="Compare Cars" />
+        <item
+            android:id="@+id/action_emi"
+            android:icon="@drawable/ic_action_image_iso"
+            android:title="Calculate EMI" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="secondary"
+        android:title="">
+
+        <menu android:title="">
+            <item
+                android:id="@+id/action_rate"
+                android:icon="@drawable/ic_action_toggle_star_half"
+                android:title="Rate" />
+            <item
+                android:id="@+id/action_share"
+                android:icon="@drawable/ic_action_social_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_action_action_settings"
+                android:title="Settings" />
+        </menu>
+
+    </group>
+
+
+</menu>

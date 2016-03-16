@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9d141e</color>
+    <color name="colorPrimaryDark">#850c19</color>
+    <color name="yellow">#ffc107</color>
+    <color name="background">#FFF5F5F5</color>
+    <color name="black20">#40000000</color>
+    <color name="white_10">#4fffffff</color>
+    <color name="color42">#424242</color>
+    <color name="col666">#666</color>
+    <color name="cole5">#e5e5e5</color>
+    <color name="col33">#333</color>
+    <color name="transparent50">#30000000</color>
+</resources>

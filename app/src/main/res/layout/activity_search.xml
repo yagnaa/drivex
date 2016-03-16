@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cole5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/back_Image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:padding="14dp"
+                android:onClick="onBackPress"
+                android:scaleType="center"
+                android:layout_gravity="left"
+                android:backgroundTint="#000"
+
+                android:src="@drawable/ic_action_navigation_arrow_back" />
+
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="72dp"
+                android:background="#fff"
+                android:drawableTint="#333"
+                android:hint="Search..."
+                android:inputType="textNoSuggestions"
+                android:paddingBottom="14dp"
+                android:paddingTop="14dp" />
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/cole5"></View>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/cole5"
+            android:dividerHeight="0dp"
+            android:scrollbarSize="0dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
